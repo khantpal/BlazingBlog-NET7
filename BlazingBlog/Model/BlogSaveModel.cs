@@ -8,15 +8,15 @@ namespace BlazingBlog.Models
         public int Id { get; set; }
 
         [Required, MaxLength(120)]
-        public string Title { get; set; }
+        public string? Title { get; set; }
 
         [Required, MaxLength(150)]
-        public string Slug { get; set; }
+        public string? Slug { get; set; }
 
         public int CategoryId { get; set; }
 
         [Required, MaxLength(250)]
-        public string Introduction { get; set; }
+        public string? Introduction { get; set; }
 
         public string? Content { get; set; }
 
