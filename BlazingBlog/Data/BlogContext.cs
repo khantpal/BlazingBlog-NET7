@@ -29,9 +29,9 @@ namespace BlazingBlog.Data
                     new User
                     {
                         Id = 1,
-                        Email = "abhayprince@outlook.com",
-                        FirstName = "Abhay",
-                        LastName = "Prince",
+                        Email = "palkhant@outlook.com",
+                        FirstName = "Pal",
+                        LastName = "Khant",
                         Salt = "dshfksdhfk",
                         Hash = "dfhkhsdskdfffgfjgfjgkdfhjgkdf/="
                     }
